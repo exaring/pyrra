@@ -3,7 +3,7 @@ module github.com/pyrra-dev/pyrra
 go 1.16
 
 require (
-	github.com/alecthomas/kong v0.2.17
+	github.com/alecthomas/kong v0.4.0
 	github.com/cespare/xxhash/v2 v2.1.2
 	github.com/dgraph-io/ristretto v0.0.3
 	github.com/fsnotify/fsnotify v1.4.9
@@ -21,5 +21,5 @@ require (
 	k8s.io/apimachinery v0.21.0
 	k8s.io/client-go v0.21.0
 	sigs.k8s.io/controller-runtime v0.9.0-beta.1.0.20210505224715-55a329c15d6b
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 )
